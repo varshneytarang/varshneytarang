@@ -195,12 +195,7 @@ I believe in making **data-driven engineering decisions** that balance multiple 
 <div align="center">
 
 <table>
- 
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=varshneytarang&theme=react&hide_border=true&background=1F222E&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=F85D7F" width="800px"/>
-    </td>
-  </tr>
+
   <tr>
     <td colspan="2" align="center">
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=varshneytarang&theme=github_dark" width="800px"/>
