@@ -195,14 +195,7 @@ I believe in making **data-driven engineering decisions** that balance multiple 
 <div align="center">
 
 <table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=varshneytarang&show_icons=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&count_private=true" height="192px"/>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=varshneytarang&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/>
-    </td>
-  </tr>
+ 
   <tr>
     <td colspan="2" align="center">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=varshneytarang&theme=react&hide_border=true&background=1F222E&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=F85D7F" width="800px"/>
@@ -215,8 +208,6 @@ I believe in making **data-driven engineering decisions** that balance multiple 
   </tr>
 </table>
 
-### 🏆 GitHub Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=varshneytarang&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="trophy" />
 
 </div>
 
