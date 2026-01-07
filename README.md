@@ -1,293 +1,364 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=70A5FD&center=true&vCenter=true&width=940&lines=Hi+there+%F0%9F%91%8B+I'm+Tarang+Varshney;Full-Stack+Developer+%7C+AI%2FML+Enthusiast;Building+Intelligent+Scalable+Applications;Welcome+to+my+GitHub+Profile!" alt="Typing SVG" />
+
+<!-- ANIMATED HERO SECTION -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=TARANG%20VARSHNEY&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%9A%80+Full-Stack+Engineer+%C3%97+AI+Architect;Building+production+AI+that+doesn't+burn+budgets+%F0%9F%92%B8;70%25+cost+cuts+%7C+200ms+wins+%7C+Real+impact" alt="Typing Animation"/>
+
+<p>
+<img src="https://img.shields.io/badge/Focus-AI%2FML%20%7C%20RAG%20Pipelines-00D9FF?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Philosophy-Ship%20Fast%2C%20Optimize%20Smart-FF6B9D?style=for-the-badge&logo=rocket&logoColor=white"/>
+<img src="https://img.shields.io/badge/Superpower-Making%20LLMs%20Production%20Ready-00FF88?style=for-the-badge&logo=databricks&logoColor=white"/>
+</p>
+
+<p>
+<img src="https://komarev.com/ghpvc/?username=varshneytarang&label=Profile+Views&color=00d9ff&style=for-the-badge"/>
+<img src="https://img.shields.io/github/followers/varshneytarang?label=Followers&style=for-the-badge&color=ff6b9d"/>
+<img src="https://img.shields.io/github/stars/varshneytarang?label=Total+Stars&style=for-the-badge&color=00ff88"/>
+</p>
+
+**🎯 Performance-obsessed engineer turning expensive AI into affordable magic**  
+*Gemini > GPT-4 (70% cheaper) • FAISS > Cloud DBs (100% uptime) • WebSocket > Polling (200ms faster)*
+
 </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=&fontSize=90" />
-</p>
+---
+
+### 📡 QUICK NAV
+<div align="center">
+
+[💻 Tech Arsenal](#-tech-arsenal) • [🚀 Flagship Projects](#-flagship-projects) • [🧬 Engineering DNA](#-engineering-dna) • [📊 GitHub Stats](#-github-stats) • [📬 Connect](#-lets-ship)
+
+</div>
+
+
+
+---
+
+## 🖥️ TERMINAL INTRO
+
+```bash
+$ whoami
+tarang@localhost:~$ cat /dev/brain
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ ENGINEER_TYPE     → Full-Stack + AI/ML Specialist
+ CURRENT_MISSION   → RAG pipelines that ship to production
+ OBSESSION         → "200ms latency" > "feels faster"
+ TECH_PHILOSOPHY   → Boring tech that works > Shiny tech for imaginary scale
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+$ git log --oneline --recent-wins
+✓ 70% cost saved    (Gemini 2.0 Flash vs GPT-4)
+✓ 60% API quota cut (PostgreSQL caching strategy)
+✓ 200ms latency win (WebSocket over HTTP polling)
+✓ <100ms retrieval  (FAISS local vs cloud databases)
+
+$ ls -la skills/
+Languages:     Python, TypeScript, JavaScript, SQL
+Backend:       Node.js, Express, Flask, FastAPI
+Frontend:      React, Tailwind CSS, Chrome APIs
+AI/ML:         Gemini, LangChain, FAISS, RAG Pipelines
+Data:          PostgreSQL, Vector DBs, BYTEA encryption
+Architecture:  Microservices, REST APIs, WebSockets, OAuth2
+
+$ echo $MANTRA
+"Measure twice, code once. Ship fast, optimize smart."
+```
+
+---
+
+## � TECH ARSENAL
 
 <div align="center">
-  
-### 🚀 Full-Stack Developer | 🤖 AI/ML Enthusiast | 💡 Problem Solver
 
-</div>
+### ⚙️ Core Stack
+<img src="https://skillicons.dev/icons?i=python,typescript,javascript,nodejs,react,flask,fastapi,express,tailwind,postgresql,redis,docker,git,vscode&perline=7" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=varshneytarang&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/varshneytarang?label=Followers&style=social" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/varshneytarang?label=Stars&style=social" alt="GitHub Stars" />
+### 🤖 AI/ML Ecosystem
+<p>
+<img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white"/>
+<img src="https://img.shields.io/badge/FAISS-00ADD8?style=for-the-badge&logo=meta&logoColor=white"/>
+<img src="https://img.shields.io/badge/RAG_Pipelines-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vector_DBs-4A90E2?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
 </p>
 
-I'm a passionate software engineer specializing in building intelligent, scalable applications that solve real-world problems. With expertise spanning full-stack development, AI integration, and cloud architecture, I create solutions that are both technically robust and user-centric.
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-## 🚀 About Me
-
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
-
-- 🔭 **Currently working on**: AI-powered applications integrating LLMs and RAG pipelines
-- 🌱 **Learning**: Advanced AI/ML techniques, microservices architecture, and HIPAA-compliant healthcare solutions
-- 💡 **Passionate about**: Creating developer tools, AI-driven automation, and building accessible mental health solutions
-- 🎯 **Focus**: Engineering decisions that balance performance, cost, and user experience
-- 📫 **Reach me**: [GitHub](https://github.com/varshneytarang) | [Email](mailto:your-email@example.com)
-- ⚡ **Fun fact**: I optimize for both code quality AND cost-effectiveness
-
-<br clear="both">
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
-</p>
-
-### **Languages**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-### **Frontend**
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-### **Backend**
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-### **AI/ML & Tools**
-![Google Gemini](https://img.shields.io/badge/-Google_Gemini-8E75B2?style=flat-square&logo=google&logoColor=white)
-![LangChain](https://img.shields.io/badge/-LangChain-121212?style=flat-square&logo=chainlink&logoColor=white)
-![FAISS](https://img.shields.io/badge/-FAISS-00ADD8?style=flat-square&logo=meta&logoColor=white)
-![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-
-### **Databases**
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Vector DBs](https://img.shields.io/badge/-Vector_DB-FF6B6B?style=flat-square&logo=databricks&logoColor=white)
-
-### **DevOps & Cloud**
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Chrome Extensions](https://img.shields.io/badge/-Chrome_Extensions-4285F4?style=flat-square&logo=google-chrome&logoColor=white)
-![REST APIs](https://img.shields.io/badge/-REST_APIs-02569B?style=flat-square&logo=rest&logoColor=white)
-![WebSocket](https://img.shields.io/badge/-WebSocket-010101?style=flat-square&logo=socket.io&logoColor=white)
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-## 💼 Featured Projects
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=36BCF7FF&center=true&vCenter=true&width=600&lines=Building+Solutions+That+Matter;AI+×+Full-Stack+×+Innovation" alt="Projects" />
-</div>
-
-<br>
+### 🛠️ Weaponized Skills
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### 🤖 Web QA Chatbot
-[![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=for-the-badge&logo=github)](https://github.com/varshneytarang/customWebsiteChatbot-site-chat)
-
-**Chrome extension for conversational webpage Q&A**
-
-💡 **Key Achievements:**
-- RAG pipeline with FAISS + Gemini AI
-- **70% cost reduction** vs GPT-4
-- Sub-100ms context retrieval
-- 1000-token chunks, 190-token overlap
-
-🛠️ `Python` `Flask` `JavaScript` `FAISS` `Gemini AI` `Playwright`
-
+<td width="25%" align="center">
+<img src="https://github.com/tandpfun/skill-icons/raw/main/icons/Python-Dark.svg" width="48"/>
+<br/><b>Python</b>
+<br/><sub>Flask • FastAPI • AI/ML</sub>
 </td>
-<td width="50%" valign="top">
-
-### 📧 MailWise
-[![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=for-the-badge&logo=github)](https://github.com/varshneytarang/MailWise)
-
-**AI-powered email management platform**
-
-💡 **Key Achievements:**
-- 13 REST endpoints with Gmail API
-- **60% API quota reduction** via caching
-- Webhook system (no polling)
-- OAuth2 security compliance
-
-🛠️ `React` `Node.js` `PostgreSQL` `Gemini AI` `OAuth2`
-
+<td width="25%" align="center">
+<img src="https://github.com/tandpfun/skill-icons/raw/main/icons/TypeScript.svg" width="48"/>
+<br/><b>TypeScript</b>
+<br/><sub>Node.js • Express • Type Safety</sub>
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 Mental Health AI Platform
-[![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=for-the-badge&logo=github)](https://github.com/sunjinwoo1298/MentalHealth)
-
-**HIPAA-compliant wellness app with crisis detection**
-
-💡 **Key Achievements:**
-- Microservices architecture (TS + Python)
-- BYTEA encryption for HIPAA compliance
-- **200ms latency reduction** via WebSocket
-- Crisis scoring (0-10) with auto-escalation
-
-🛠️ `TypeScript` `React` `Python` `FastAPI` `LangChain` `PostgreSQL`
-
+<td width="25%" align="center">
+<img src="https://github.com/tandpfun/skill-icons/raw/main/icons/React-Dark.svg" width="48"/>
+<br/><b>React</b>
+<br/><sub>Tailwind • Modern UIs</sub>
 </td>
-<td width="50%" valign="top">
-
-### 🎯 More Coming Soon...
-
-**Currently exploring:**
-- 🔄 Real-time collaborative tools
-- 🤖 Advanced RAG systems
-- 🔐 Zero-knowledge architectures
-- 📊 Data visualization platforms
-
-*"Building in public, learning in private"*
-
+<td width="25%" align="center">
+<img src="https://github.com/tandpfun/skill-icons/raw/main/icons/PostgreSQL-Dark.svg" width="48"/>
+<br/><b>PostgreSQL</b>
+<br/><sub>BYTEA • Vector DBs</sub>
 </td>
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</div>
 
 ---
 
-## 🎯 Engineering Philosophy
+## � FLAGSHIP PROJECTS
 
-I believe in making **data-driven engineering decisions** that balance multiple constraints:
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=2000&pause=500&color=FF6B9D&center=true&vCenter=true&width=600&lines=Shipped+%7C+Not+Just+Side+Projects;Real+Users+%E2%80%A2+Real+Metrics+%E2%80%A2+Real+Impact" alt="Projects Subtitle"/>
+</div>
 
-- **Performance vs Cost**: Choosing Gemini 2.0 Flash over GPT-4 for 70% cost reduction while maintaining quality
-- **Security vs UX**: 15-minute JWT expiry balancing security against re-authentication friction
-- **Scalability vs Complexity**: UUID v4 keys enabling horizontal sharding for distributed systems
-- **Availability vs Dependencies**: FAISS local storage maintaining 100% availability vs cloud database risks
+<br/>
 
-### Key Principles:
-- 📊 **Quantify trade-offs** with concrete metrics and estimates
-- 🛡️ **Prevent failure modes** before they occur (rate limiting, input validation, encryption)
-- ⚡ **Optimize for real-world impact** (60% API quota reduction, 200ms latency improvement)
-- 🔧 **Choose the right tool** for each specific problem domain
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-## 📈 GitHub Analytics
+<!-- PROJECT 1 -->
+<details open>
+<summary><b>🤖 Web QA Chatbot</b> - Chrome Extension • RAG Pipeline • 70% Cost Saved</summary>
+<br/>
 
 <div align="center">
 
-<table>
-
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=varshneytarang&theme=github_dark" width="800px"/>
-    </td>
-  </tr>
-</table>
-
+[![View Repo](https://img.shields.io/badge/GitHub-View_Code-00D9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/varshneytarang/customWebsiteChatbot-site-chat)
+![Status](https://img.shields.io/badge/STATUS-PRODUCTION-00FF88?style=for-the-badge)
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+**🎯 The Problem:** Users spend hours reading docs. AI chat costs are insane with GPT-4.
+
+**💡 The Solution:** Turn any webpage into a chatbot using RAG + Gemini 2.0 Flash
+
+#### 📊 Impact Metrics
+```yaml
+Cost Optimization:  70% savings (Gemini vs GPT-4)
+Performance:        <100ms retrieval (FAISS local storage)
+Context Strategy:   1000-token chunks, 190-token overlap
+Architecture:       RAG + Vector DB + No cloud dependency
+```
+
+#### 🛠️ Tech Stack
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/FAISS-00ADD8?style=flat-square&logo=meta&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
+
+**⚡ Why It Matters:** No cloud DB = no latency tax = 100% uptime
+
+</details>
+
+<!-- PROJECT 2 -->
+<details>
+<summary><b>📧 MailWise</b> - AI Email Manager • 60% API Quota Saved</summary>
+<br/>
+
+<div align="center">
+
+[![View Repo](https://img.shields.io/badge/GitHub-View_Code-FF6B9D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/varshneytarang/MailWise)
+![Status](https://img.shields.io/badge/STATUS-SCALING-FF6B9D?style=for-the-badge)
+
+</div>
+
+**🎯 The Problem:** Gmail API quotas kill productivity tools. 400+ wasted requests/day/user.
+
+**💡 The Solution:** PostgreSQL caching + Webhooks + AI classification
+
+#### 📊 Impact Metrics
+```yaml
+API Efficiency:     60% quota reduction via smart caching
+Architecture:       13 REST endpoints + Gmail API integration
+Real-time Updates:  Webhooks (eliminated 60s polling)
+Security:           OAuth2 compliant authentication flow
+```
+
+#### 🛠️ Tech Stack
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/OAuth2-EB5424?style=flat-square&logo=auth0&logoColor=white"/>
+
+**⚡ Why It Matters:** Staying under quota = app stays alive
+
+</details>
+
+<!-- PROJECT 3 -->
+<details>
+<summary><b>🧠 Mental Health AI Platform</b> - HIPAA Compliant • Crisis Detection • 200ms Faster</summary>
+<br/>
+
+<div align="center">
+
+[![View Repo](https://img.shields.io/badge/GitHub-View_Code-00FF88?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sunjinwoo1298/MentalHealth)
+![Status](https://img.shields.io/badge/STATUS-ENTERPRISE-00FF88?style=for-the-badge)
+
+</div>
+
+**🎯 The Problem:** Mental health data is sensitive. Latency kills conversational UX.
+
+**💡 The Solution:** Microservices + BYTEA encryption + WebSocket + Crisis scoring
+
+#### 📊 Impact Metrics
+```yaml
+Performance:        200ms latency reduction (WebSocket magic)
+Compliance:         HIPAA-ready (BYTEA encryption at rest)
+Crisis Detection:   0-10 scoring with auto-escalation
+Architecture:       Microservices (TypeScript + Python)
+Security:           JWT rotation (15min expiry prevents theft)
+```
+
+#### 🛠️ Tech Stack
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socket.io&logoColor=white"/>
+
+**⚡ Why It Matters:** Lives > uptime. Real-time matters in mental health.
+
+</details>
+
+<br/>
+
+<div align="center">
+
+### 🔮 What's Cooking Next
+🔄 **Real-time collaboration tools** • 🤖 **Multi-agent RAG systems** • 🔐 **Zero-knowledge architectures** • 📊 **Data viz for humans**
+
+*"Building in public, learning in private, shipping in stealth"*
+
+</div>
 
 ---
 
-## 💻 What I Believe In
+## 🧬 ENGINEERING DNA
+
+<div align="center">
+
+> **"Measure twice, code once. Ship fast, optimize smart. Sleep well at night."**
+
+</div>
 
 ```javascript
-const engineeringPrinciples = {
-    philosophy: "Measure twice, code once",
-    approach: [
-        "🎯 Trade-offs over absolutes (70% cost cut > perfect accuracy)",
-        "📊 Quantify everything (200ms matters, 'faster' doesn't)",
-        "🛡️ Design for failure (rate limits, encryption, validation)",
-        "⚡ Ship fast, optimize later (but know when to optimize)"
+const varshney = {
+    philosophy: "Real metrics > Vague goals",
+    
+    tradeoffs: {
+        "70% cost cut": "Gemini 2.0 Flash > GPT-4 (same quality, way cheaper)",
+        "100% uptime":  "FAISS local > Cloud DBs (no external dependencies)",
+        "200ms faster": "WebSocket > HTTP polling (real-time wins)",
+        "60% API saved": "PostgreSQL cache > 400 requests/day waste"
+    },
+    
+    principles: [
+        "📊 Quantify everything: '200ms' > 'feels faster'",
+        "🛡️ Design for failure: rate limits, retries, circuit breakers",
+        "⚡ Ship fast, then optimize the 20% that matters",
+        "🔧 Boring tech > Shiny tech for problems you don't have"
     ],
+    
     stack: {
         languages: ["Python", "TypeScript", "JavaScript", "SQL"],
-        backend: ["Node.js", "Express", "Flask", "FastAPI"],
-        frontend: ["React", "Tailwind CSS", "Chrome APIs"],
-        ai: ["Gemini", "LangChain", "FAISS", "RAG Pipelines"],
-        data: ["PostgreSQL", "Vector DBs", "Encryption at rest"]
+        backend:   ["Node.js", "Express", "Flask", "FastAPI"],
+        frontend:  ["React", "Tailwind CSS"],
+        aiml:      ["Gemini", "LangChain", "FAISS", "RAG"],
+        data:      ["PostgreSQL", "Vector DBs", "BYTEA encryption"]
     },
-    currentMission: "Making AI accessible without breaking the bank",
-    realTalk: "I choose boring tech that works over shiny tech that scales to problems I don't have"
+    
+    mission: "Making AI accessible without selling kidneys for API credits",
+    realTalk: "I choose solutions that ship, not solutions that impress VCs"
 };
 ```
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<div align="center">
+
+### ⚡ In Action
+
+| 🎯 Principle | 💡 Example | 📊 Result |
+|:---|:---|:---|
+| **Quantify Trade-offs** | Gemini vs GPT-4 benchmark | 70% cost cut, <2% quality drop |
+| **Fail Gracefully** | JWT 15min expiry + rotation | Theft window minimized, UX intact |
+| **Optimize Impact** | Cache email metadata in PG | 60% API quota saved |
+| **Choose Boring** | PostgreSQL > MongoDB | Schema = predictability = sleep |
+
+</div>
 
 ---
 
-## 📫 Let's Build Something
+## � GITHUB STATS
 
 <div align="center">
 
-### Open to interesting conversations about:
-**AI/ML Engineering** • **System Design Trade-offs** • **Cost Optimization** • **RAG Pipelines** • **Startup Ideas**
+<img src="https://github-readme-stats.vercel.app/api?username=varshneytarang&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=FF6B9D&text_color=FFFFFF&ring_color=00D9FF&count_private=true&include_all_commits=true" width="49%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=varshneytarang&theme=radical&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B9D&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=FFFFFF" width="49%"/>
 
-<br>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=varshneytarang&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&langs_count=8" width="49%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=varshneytarang&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00D9FF&line=FF6B9D&point=FFFFFF&area_color=00D9FF&title_color=00D9FF&area=true" width="49%"/>
 
-<table>
-  <tr>
-    <td align="center" width="200px">
-      <a href="https://linkedin.com/in/tarang-varshney">
-        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-      </a>
-      <br/>Professional Network
-    </td>
-    <td align="center" width="200px">
-      <a href="mailto:your.email@example.com">
-        <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-      </a>
-      <br/>Direct Contact
-    </td>
-    <td align="center" width="200px">
-      <a href="https://github.com/varshneytarang">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-      </a>
-      <br/>My Work
-    </td>
-    <td align="center" width="200px">
-      <a href="https://varshneytarang.dev">
-        <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
-      </a>
-      <br/>Projects & Blog
-    </td>
-  </tr>
-</table>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=varshneytarang&theme=radical" width="99%"/>
 
-<br>
+### 🏆 Trophy Case
+<img src="https://github-profile-trophy.vercel.app/?username=varshneytarang&theme=radical&no-frame=true&no-bg=false&row=1&column=7&margin-w=10&margin-h=10" width="100%"/>
 
-### 💭 My Take
+</div>
 
-> *"The best engineers don't write clever code—they write code that saves money, ships fast, and doesn't break at 2 AM.  
-> Also, choosing Gemini over GPT-4 and saving 70% makes you a hero, not a compromiser."*
+---
 
-<br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 
-**⭐ If something here helped you, star the repo! It costs you nothing but means everything.**
+## � LET'S SHIP
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Thanks+for+stopping+by!+💙;Let's+make+AI+accessible+and+affordable;Building+in+public+%7C+Learning+forever" alt="Footer" />
+<div align="center">
+
+### 🎯 Down to talk about
+**AI/ML Engineering** • **System Design** • **Cost Optimization** • **RAG Pipelines** • **HIPAA Compliance** • **Performance Tuning** • **Startup Ideas**
+
+<br/>
+
+<a href="https://linkedin.com/in/tarang-varshney">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" height="50"/>
+</a>
+<a href="mailto:your.email@example.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" height="50"/>
+</a>
+<a href="https://github.com/varshneytarang">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" height="50"/>
+</a>
+<a href="https://varshneytarang.dev">
+<img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" height="50"/>
+</a>
+
+<br/><br/>
+
+### 💭 Real Talk
+
+> *"The best engineers don't write clever code—they write code that **saves money**, **ships fast**, and **doesn't break at 2 AM**.*
+> 
+> *Choosing Gemini over GPT-4 and saving 70% doesn't make you a compromiser.  
+> It makes you a **hero**."*
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=twinkling"/>
+
+**⭐ Found this useful? Star the repo—costs nothing, means everything.**
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&lines=Thanks+for+stopping+by!+%F0%9F%92%99;Let's+make+AI+accessible+without+breaking+banks;Building+in+public+%E2%80%A2+Shipping+in+stealth+%E2%80%A2+Learning+forever;DMs+open+for+interesting+problems+%F0%9F%9A%80" alt="Footer"/>
 
 </div>
