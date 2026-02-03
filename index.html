@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎢 Tarang Varshney - The Engineering Rollercoaster 🎢</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Space+Grotesk:wght@300;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --neon-blue: #00D9FF;
+            --neon-pink: #FF6B9D;
+            --neon-green: #00FF88;
+            --dark-bg: #0D1117;
+            --darker-bg: #010409;
+        }
+
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: var(--darker-bg);
+            color: white;
+            overflow-x: hidden;
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><circle cx="10" cy="10" r="8" fill="%2300D9FF" opacity="0.5"/></svg>'), auto;
+        }
+
+        /* Animated Background */
+        .animated-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(45deg, var(--darker-bg), var(--dark-bg));
+            overflow: hidden;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: var(--neon-blue);
+            border-radius: 50%;
+            animation: float 20s infinite ease-in-out;
+            box-shadow: 0 0 10px var(--neon-blue);
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) translateX(0); }
+            25% { transform: translateY(-100vh) translateX(100px); }
+            50% { transform: translateY(-200vh) translateX(-100px); }
+            75% { transform: translateY(-300vh) translateX(100px); }
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero h1 {
+            font-size: 8rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--neon-blue), var(--neon-pink), var(--neon-green));
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient 3s linear infinite, glitch 5s infinite;
+            text-shadow: 0 0 80px rgba(0, 217, 255, 0.5);
+            margin-bottom: 20px;
+        }
+
+        @keyframes gradient {
+            to { background-position: 200% center; }
+        }
+
+        @keyframes glitch {
+            0%, 100% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+        }
+
+        .subtitle {
+            font-size: 2rem;
+            color: var(--neon-pink);
+            animation: pulse 2s infinite;
+            font-family: 'Fira Code', monospace;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.05); }
+        }
+
+        /* Horizontal Scroll Section */
+        .horizontal-section {
+            height: 100vh;
+            width: 400vw;
+            display: flex;
+            position: relative;
+        }
+
+        .horizontal-wrapper {
+            height: 100vh;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scroll-snap-type: x mandatory;
+            display: flex;
+            scrollbar-width: thin;
+            scrollbar-color: var(--neon-blue) var(--dark-bg);
+        }
+
+        .horizontal-wrapper::-webkit-scrollbar {
+            height: 10px;
+        }
+
+        .horizontal-wrapper::-webkit-scrollbar-track {
+            background: var(--dark-bg);
+        }
+
+        .horizontal-wrapper::-webkit-scrollbar-thumb {
+            background: var(--neon-blue);
+            border-radius: 10px;
+            box-shadow: 0 0 10px var(--neon-blue);
+        }
+
+        .h-panel {
+            min-width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+            position: relative;
+            padding: 50px;
+        }
+
+        .h-panel:nth-child(1) { background: linear-gradient(135deg, #1a1a2e, #16213e); }
+        .h-panel:nth-child(2) { background: linear-gradient(135deg, #0f3460, #16213e); }
+        .h-panel:nth-child(3) { background: linear-gradient(135deg, #533483, #16213e); }
+        .h-panel:nth-child(4) { background: linear-gradient(135deg, #c70039, #16213e); }
+
+        /* 3D Cards */
+        .card-3d {
+            width: 600px;
+            height: 400px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 2px solid var(--neon-blue);
+            border-radius: 20px;
+            padding: 40px;
+            transform-style: preserve-3d;
+            transition: transform 0.5s;
+            box-shadow: 0 0 40px rgba(0, 217, 255, 0.3);
+        }
+
+        .card-3d:hover {
+            transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+            box-shadow: 0 0 60px rgba(0, 217, 255, 0.6);
+        }
+
+        .card-3d h2 {
+            font-size: 3rem;
+            color: var(--neon-pink);
+            margin-bottom: 20px;
+            text-shadow: 0 0 20px var(--neon-pink);
+        }
+
+        .card-3d p {
+            font-size: 1.2rem;
+            color: var(--neon-green);
+            font-family: 'Fira Code', monospace;
+        }
+
+        /* Spiral Section */
+        .spiral-section {
+            min-height: 200vh;
+            position: relative;
+            background: radial-gradient(circle at 50% 50%, #1a1a2e, var(--darker-bg));
+            overflow: hidden;
+        }
+
+        .spiral-container {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .spiral-item {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(135deg, var(--neon-blue), var(--neon-pink));
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            animation: spiral 10s infinite linear;
+            box-shadow: 0 0 40px rgba(0, 217, 255, 0.5);
+        }
+
+        @keyframes spiral {
+            0% { transform: rotate(0deg) translateX(300px) rotate(0deg); }
+            100% { transform: rotate(360deg) translateX(300px) rotate(-360deg); }
+        }
+
+        .spiral-item:nth-child(1) { animation-delay: 0s; }
+        .spiral-item:nth-child(2) { animation-delay: 2s; }
+        .spiral-item:nth-child(3) { animation-delay: 4s; }
+        .spiral-item:nth-child(4) { animation-delay: 6s; }
+        .spiral-item:nth-child(5) { animation-delay: 8s; }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            padding: 100px;
+            background: var(--dark-bg);
+        }
+
+        .skill-card {
+            padding: 30px;
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.1), rgba(255, 107, 157, 0.1));
+            border: 2px solid var(--neon-blue);
+            border-radius: 15px;
+            text-align: center;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 217, 255, 0.4);
+            border-color: var(--neon-pink);
+        }
+
+        .skill-card h3 {
+            color: var(--neon-green);
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .skill-card p {
+            color: var(--neon-blue);
+            font-family: 'Fira Code', monospace;
+        }
+
+        /* Floating Navigation */
+        .floating-nav {
+            position: fixed;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .nav-dot {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: var(--neon-blue);
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 0 10px var(--neon-blue);
+        }
+
+        .nav-dot:hover {
+            transform: scale(1.5);
+            box-shadow: 0 0 20px var(--neon-pink);
+            background: var(--neon-pink);
+        }
+
+        /* Stats Counter */
+        .stats-section {
+            padding: 100px;
+            background: linear-gradient(135deg, var(--darker-bg), var(--dark-bg));
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 50px;
+        }
+
+        .stat-box {
+            text-align: center;
+            padding: 40px;
+            background: rgba(0, 217, 255, 0.05);
+            border: 2px solid var(--neon-pink);
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+
+        .stat-box:hover {
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 0 40px rgba(255, 107, 157, 0.5);
+        }
+
+        .stat-number {
+            font-size: 4rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--neon-blue), var(--neon-pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: countup 2s ease-out;
+        }
+
+        .stat-label {
+            color: var(--neon-green);
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 50px;
+            text-align: center;
+            background: var(--darker-bg);
+            border-top: 2px solid var(--neon-blue);
+        }
+
+        .footer h2 {
+            font-size: 3rem;
+            color: var(--neon-pink);
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .social-btn {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, var(--neon-blue), var(--neon-pink));
+            border: none;
+            border-radius: 50px;
+            color: white;
+            font-weight: 700;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+        }
+
+        .social-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 40px rgba(255, 107, 157, 0.8);
+        }
+
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2rem;
+            animation: bounce 2s infinite;
+            color: var(--neon-green);
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(20px); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg" id="bg"></div>
+
+    <!-- Floating Navigation -->
+    <div class="floating-nav">
+        <div class="nav-dot" onclick="scrollToSection('hero')"></div>
+        <div class="nav-dot" onclick="scrollToSection('horizontal')"></div>
+        <div class="nav-dot" onclick="scrollToSection('spiral')"></div>
+        <div class="nav-dot" onclick="scrollToSection('skills')"></div>
+        <div class="nav-dot" onclick="scrollToSection('stats')"></div>
+        <div class="nav-dot" onclick="scrollToSection('footer')"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <h1>TARANG VARSHNEY</h1>
+        <p class="subtitle">🎢 WELCOME TO THE ENGINEERING ROLLERCOASTER 🎢</p>
+        <p class="subtitle" style="font-size: 1.5rem; margin-top: 20px;">
+            Full-Stack Wizard | AI/ML Architect | 70% Cost Slayer
+        </p>
+        <div class="scroll-indicator">⬇️</div>
+    </section>
+
+    <!-- Horizontal Scroll Section -->
+    <section id="horizontal">
+        <div class="horizontal-wrapper">
+            <div class="h-panel">
+                <div class="card-3d">
+                    <h2>🤖 Web QA Chatbot</h2>
+                    <p>💰 70% Cost Saved</p>
+                    <p>⚡ <100ms Retrieval</p>
+                    <p>🧠 RAG Pipeline + FAISS</p>
+                    <p>🎯 Chrome Extension</p>
+                    <p style="margin-top: 20px; color: var(--neon-blue);">
+                        Turn any webpage into an AI chatbot using Gemini 2.0 Flash. 
+                        No cloud tax, 100% uptime!
+                    </p>
+                </div>
+            </div>
+            <div class="h-panel">
+                <div class="card-3d">
+                    <h2>📧 MailWise</h2>
+                    <p>💰 60% API Quota Saved</p>
+                    <p>⚡ Real-time Webhooks</p>
+                    <p>🧠 AI Classification</p>
+                    <p>🔐 OAuth2 Compliant</p>
+                    <p style="margin-top: 20px; color: var(--neon-blue);">
+                        Smart email management with PostgreSQL caching. 
+                        Say goodbye to wasted API calls!
+                    </p>
+                </div>
+            </div>
+            <div class="h-panel">
+                <div class="card-3d">
+                    <h2>🧠 Mental Health AI</h2>
+                    <p>💰 200ms Latency Cut</p>
+                    <p>⚡ WebSocket Magic</p>
+                    <p>🧠 Crisis Detection 0-10</p>
+                    <p>🔐 HIPAA Compliant</p>
+                    <p style="margin-top: 20px; color: var(--neon-blue);">
+                        Enterprise-grade mental health platform. 
+                        Lives > uptime. Real-time matters!
+                    </p>
+                </div>
+            </div>
+            <div class="h-panel">
+                <div class="card-3d">
+                    <h2>🚀 What's Next?</h2>
+                    <p>⚡ Real-time Collaboration</p>
+                    <p>🤖 Multi-agent RAG Systems</p>
+                    <p>🔐 Zero-knowledge Architecture</p>
+                    <p>📊 Data Visualization</p>
+                    <p style="margin-top: 20px; color: var(--neon-blue);">
+                        Building in public, learning in private, 
+                        shipping in stealth! 🎯
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spiral Section -->
+    <section class="spiral-section" id="spiral">
+        <div class="spiral-container">
+            <div class="spiral-item">Python</div>
+            <div class="spiral-item">TypeScript</div>
+            <div class="spiral-item">React</div>
+            <div class="spiral-item">PostgreSQL</div>
+            <div class="spiral-item">AI/ML</div>
+            <h2 style="font-size: 4rem; color: var(--neon-blue); text-align: center; text-shadow: 0 0 40px var(--neon-blue);">
+                🌀 TECH SPIRAL 🌀
+            </h2>
+        </div>
+    </section>
+
+    <!-- Skills Grid -->
+    <section class="skills-grid" id="skills">
+        <div class="skill-card">
+            <h3>🐍</h3>
+            <p>Python</p>
+            <p>Flask • FastAPI</p>
+        </div>
+        <div class="skill-card">
+            <h3>📘</h3>
+            <p>TypeScript</p>
+            <p>Node.js • Express</p>
+        </div>
+        <div class="skill-card">
+            <h3>⚛️</h3>
+            <p>React</p>
+            <p>Tailwind • Hooks</p>
+        </div>
+        <div class="skill-card">
+            <h3>🐘</h3>
+            <p>PostgreSQL</p>
+            <p>BYTEA • Vector DBs</p>
+        </div>
+        <div class="skill-card">
+            <h3>🧠</h3>
+            <p>Gemini AI</p>
+            <p>LangChain • RAG</p>
+        </div>
+        <div class="skill-card">
+            <h3>🔍</h3>
+            <p>FAISS</p>
+            <p>Vector Search</p>
+        </div>
+        <div class="skill-card">
+            <h3>🎭</h3>
+            <p>Playwright</p>
+            <p>Web Scraping</p>
+        </div>
+        <div class="skill-card">
+            <h3>🐳</h3>
+            <p>Docker</p>
+            <p>Microservices</p>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section" id="stats">
+        <div class="stat-box">
+            <div class="stat-number">70%</div>
+            <div class="stat-label">Cost Saved</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">200ms</div>
+            <div class="stat-label">Latency Cut</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">60%</div>
+            <div class="stat-label">API Quota Saved</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Uptime</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <h2>🎢 THANKS FOR THE RIDE! 🎢</h2>
+        <p style="font-size: 1.5rem; color: var(--neon-green); margin: 20px 0;">
+            Let's build something amazing together!
+        </p>
+        <div class="social-links">
+            <button class="social-btn" onclick="window.open('https://linkedin.com/in/tarang-varshney')">
+                LinkedIn
+            </button>
+            <button class="social-btn" onclick="window.open('https://github.com/varshneytarang')">
+                GitHub
+            </button>
+            <button class="social-btn" onclick="window.open('mailto:your.email@example.com')">
+                Email
+            </button>
+        </div>
+        <p style="margin-top: 40px; color: var(--neon-blue); font-family: 'Fira Code', monospace;">
+            Made with 💜 and ⚡ by Tarang Varshney | © 2026
+        </p>
+    </section>
+
+    <script>
+        // Generate animated particles
+        const bg = document.getElementById('bg');
+        for (let i = 0; i < 50; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.top = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 20 + 's';
+            bg.appendChild(particle);
+        }
+
+        // Smooth scroll to section
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Parallax effect
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const particles = document.querySelectorAll('.particle');
+            particles.forEach((particle, index) => {
+                const speed = (index % 3 + 1) * 0.5;
+                particle.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+
+        // Mouse trail effect
+        document.addEventListener('mousemove', (e) => {
+            const trail = document.createElement('div');
+            trail.style.position = 'fixed';
+            trail.style.width = '10px';
+            trail.style.height = '10px';
+            trail.style.borderRadius = '50%';
+            trail.style.background = 'var(--neon-blue)';
+            trail.style.left = e.clientX + 'px';
+            trail.style.top = e.clientY + 'px';
+            trail.style.pointerEvents = 'none';
+            trail.style.opacity = '0.6';
+            trail.style.zIndex = '9999';
+            document.body.appendChild(trail);
+
+            setTimeout(() => {
+                trail.style.transition = 'all 1s';
+                trail.style.opacity = '0';
+                trail.style.transform = 'scale(2)';
+            }, 10);
+
+            setTimeout(() => trail.remove(), 1000);
+        });
+    </script>
+</body>
+</html>
