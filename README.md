@@ -11,6 +11,33 @@
 
 </div>
 
+<!-- Animated Reasoning Flow -->
+<h2 align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284103-59bb933b-d3b7-4b6d-9b30-3aa7f61c2f44.gif" width="30"/>
+  HOW I THINK IN SYSTEMS
+  <img src="https://user-images.githubusercontent.com/74038190/212284103-59bb933b-d3b7-4b6d-9b30-3aa7f61c2f44.gif" width="30"/>
+</h2>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=900&color=00D9FF&center=true&vCenter=true&width=920&lines=1)+Observe+Signals+%E2%86%92+2)+Map+Failure+Modes+%E2%86%92+3)+Design+for+Resilience;4)+Benchmark+Before%2FAfter+%E2%86%92+5)+Automate+Regression+Checks;Build+for+clarity%2C+speed%2C+and+operational+safety" alt="Thinking Loop"/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="1000">
+
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│                       DECISION ENGINE (MY DEFAULT LOOP)                    │
+│                                                                            │
+│   Signal Intake      Constraint Map      Candidate Design      Validation  │
+│        │                    │                    │                 │       │
+│   Logs + Metrics ───► Trade-offs ───► Simpler First ───► Data-backed ship │
+│                                                                            │
+│   Rule: If it cannot be measured, it cannot be trusted in production.     │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
 <!-- System Architecture Flow -->
 <div align="center">
 
@@ -291,6 +318,33 @@ Smart Notifications (40% reduction)
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 </div>
 
+<!-- Delivery Lifecycle Animation -->
+<h2 align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="30"/>
+  BUILD -> BREAK -> FIX -> SHIP LOOP
+  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="30"/>
+</h2>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2300&pause=800&color=FF6B9D&center=true&vCenter=true&width=980&lines=Prototype+fast+%E2%86%92+Observe+real+usage+%E2%86%92+Patch+failure+modes+%E2%86%92+Re-test+under+load;Security+review+%E2%86%92+Performance+tuning+%E2%86%92+Deploy+with+rollback+plan" alt="Build Loop"/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284103-59bb933b-d3b7-4b6d-9b30-3aa7f61c2f44.gif" width="1000">
+
+```text
+Idea
+  ↓
+MVP (working)
+  ↓
+Stress Test (latency, edge cases, auth, retries)
+  ↓
+Refactor (remove complexity, improve observability)
+  ↓
+Deploy + Monitor (alerts, dashboards, rollback ready)
+```
+
+</div>
+
 <!-- Architectural Decision Records -->
 <h2 align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="30"/>
@@ -489,6 +543,27 @@ Docker Images:
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=varshneytarang&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff&langs_count=10" width="49%"/>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
+
+</div>
+
+<!-- Reading Guide Animation -->
+<h2 align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="28"/>
+  QUICK NAV FOR RECRUITERS
+  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="28"/>
+</h2>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=900&color=00FF88&center=true&vCenter=true&width=950&lines=Want+impact+first%3F+Jump+to+Production+Architectures;Want+engineering+thinking%3F+See+Architectural+Decision+Records;Want+consistency+proof%3F+Check+GitHub+Analytics+and+Streaks" alt="Reading Guide"/>
+
+```text
+If you have 30 seconds: scan metrics + project cards.
+If you have 2 minutes: review architecture trade-offs + system design section.
+If you have 5 minutes: inspect all four flagship project pipelines.
+```
+
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="1000">
 
 </div>
 
